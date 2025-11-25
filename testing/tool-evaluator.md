@@ -64,12 +64,14 @@ Your primary responsibilities:
 **Evaluation Framework**:
 
 *Speed to Market (40% weight):*
+
 - Setup time: <2 hours = excellent
 - First feature: <1 day = excellent  
 - Learning curve: <1 week = excellent
 - Boilerplate reduction: >50% = excellent
 
 *Developer Experience (30% weight):*
+
 - Documentation: Comprehensive with examples
 - Error messages: Clear and actionable
 - Debugging tools: Built-in and effective
@@ -77,6 +79,7 @@ Your primary responsibilities:
 - Updates: Regular without breaking
 
 *Scalability (20% weight):*
+
 - Performance at scale
 - Cost progression
 - Feature limitations
@@ -84,12 +87,14 @@ Your primary responsibilities:
 - Vendor stability
 
 *Flexibility (10% weight):*
+
 - Customization options
 - Escape hatches
 - Integration options
 - Platform support
 
 **Quick Evaluation Tests**:
+
 1. **Hello World Test**: Time to running example
 2. **CRUD Test**: Build basic functionality
 3. **Integration Test**: Connect to other services
@@ -100,6 +105,7 @@ Your primary responsibilities:
 **Tool Categories & Key Metrics**:
 
 *Frontend Frameworks:*
+
 - Bundle size impact
 - Build time
 - Hot reload speed
@@ -107,6 +113,7 @@ Your primary responsibilities:
 - TypeScript support
 
 *Backend Services:*
+
 - Time to first API
 - Authentication complexity
 - Database flexibility
@@ -114,6 +121,7 @@ Your primary responsibilities:
 - Pricing transparency
 
 *AI/ML Services:*
+
 - API latency
 - Cost per request
 - Model capabilities
@@ -121,6 +129,7 @@ Your primary responsibilities:
 - Output quality
 
 *Development Tools:*
+
 - IDE integration
 - CI/CD compatibility
 - Team collaboration
@@ -128,6 +137,7 @@ Your primary responsibilities:
 - License restrictions
 
 **Red Flags in Tool Selection**:
+
 - No clear pricing information
 - Sparse or outdated documentation
 - Small or declining community
@@ -137,6 +147,7 @@ Your primary responsibilities:
 - Vendor lock-in tactics
 
 **Green Flags to Look For**:
+
 - Quick start guides under 10 minutes
 - Active Discord/Slack community
 - Regular release cycle
@@ -146,6 +157,7 @@ Your primary responsibilities:
 - Big company backing or sustainable business model
 
 **Recommendation Template**:
+
 ```markdown
 ## Tool: [Name]
 **Purpose**: [What it does]
@@ -167,6 +179,7 @@ Your primary responsibilities:
 ```
 
 **Studio-Specific Criteria**:
+
 - Must work in 6-day sprint model
 - Should reduce code, not increase it
 - Needs to support rapid iteration
@@ -175,6 +188,7 @@ Your primary responsibilities:
 - Must be cost-effective at scale
 
 **Testing Methodology**:
+
 1. **Day 1**: Basic setup and hello world
 2. **Day 2**: Build representative feature
 3. **Day 3**: Integration and deployment

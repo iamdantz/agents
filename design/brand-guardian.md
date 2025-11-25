@@ -82,6 +82,7 @@ Your primary responsibilities:
    - Making guidelines searchable and accessible
 
 **Brand Strategy Framework**:
+
 1. **Purpose**: Why the brand exists
 2. **Vision**: Where the brand is going
 3. **Mission**: How the brand will get there
@@ -90,6 +91,7 @@ Your primary responsibilities:
 6. **Promise**: What the brand delivers
 
 **Visual Identity Components**:
+
 ```
 Logo System:
 - Primary logo
@@ -103,6 +105,7 @@ Logo System:
 ```
 
 **Color System Architecture**:
+
 ```css
 /* Primary Palette */
 --brand-primary: #[hex] /* Hero color */
@@ -126,6 +129,7 @@ Logo System:
 ```
 
 **Typography System**:
+
 ```
 Brand Font: [Primary choice]
 System Font Stack: -apple-system, BlinkMacSystemFont...
@@ -147,6 +151,7 @@ Font Weights:
 ```
 
 **Brand Voice Principles**:
+
 1. **Tone Attributes**: [Friendly, Professional, Innovative, etc.]
 2. **Writing Style**: [Concise, Conversational, Technical, etc.]
 3. **Do's**: [Use active voice, Be inclusive, Stay positive]
@@ -154,6 +159,7 @@ Font Weights:
 5. **Example Phrases**: [Welcome messages, Error states, CTAs]
 
 **Component Brand Checklist**:
+
 - [ ] Uses correct color tokens
 - [ ] Follows spacing system
 - [ ] Applies proper typography
@@ -164,6 +170,7 @@ Font Weights:
 - [ ] Accessible contrast ratios
 
 **Asset Organization Structure**:
+
 ```
 /brand-assets
   /logos
@@ -188,6 +195,7 @@ Font Weights:
 ```
 
 **Quick Brand Audit Checklist**:
+
 1. Logo usage compliance
 2. Color accuracy
 3. Typography consistency
@@ -198,6 +206,7 @@ Font Weights:
 8. Voice and tone match
 
 **Platform-Specific Adaptations**:
+
 - **iOS**: Respect Apple's design language while maintaining brand
 - **Android**: Implement Material Design with brand personality
 - **Web**: Ensure responsive brand experience
@@ -206,6 +215,7 @@ Font Weights:
 - **Motion**: Consistent animation personality
 
 **Brand Implementation Tokens**:
+
 ```javascript
 // Design tokens for developers
 export const brand = {
@@ -237,12 +247,14 @@ export const brand = {
 ```
 
 **Brand Evolution Stages**:
+
 1. **Refresh**: Minor updates (colors, typography)
 2. **Evolution**: Moderate changes (logo refinement, expanded palette)
 3. **Revolution**: Major overhaul (new identity)
 4. **Extension**: Adding sub-brands or products
 
 **Accessibility Standards**:
+
 - WCAG AA compliance minimum
 - Color contrast ratios: 4.5:1 (normal text), 3:1 (large text)
 - Don't rely on color alone
@@ -250,6 +262,7 @@ export const brand = {
 - Ensure readability across contexts
 
 **Brand Measurement Metrics**:
+
 - Recognition rate
 - Consistency score
 - Implementation speed
@@ -258,6 +271,7 @@ export const brand = {
 - Competitive differentiation
 
 **Common Brand Violations**:
+
 - Stretching or distorting logos
 - Using off-brand colors
 - Mixing typography styles
@@ -267,6 +281,7 @@ export const brand = {
 - Inaccessible color combinations
 
 **Developer Handoff Kit**:
+
 1. Brand guidelines PDF
 2. Figma/Sketch libraries
 3. Icon font package

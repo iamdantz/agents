@@ -84,6 +84,7 @@ Your primary responsibilities:
 **Key Metrics Framework**:
 
 *Acquisition Metrics:*
+
 - Install sources and attribution
 - Cost per acquisition by channel
 - Organic vs paid breakdown
@@ -91,6 +92,7 @@ Your primary responsibilities:
 - Channel performance trends
 
 *Activation Metrics:*
+
 - Time to first value
 - Onboarding completion rates
 - Feature discovery patterns
@@ -98,6 +100,7 @@ Your primary responsibilities:
 - Account creation friction
 
 *Retention Metrics:*
+
 - D1, D7, D30 retention curves
 - Cohort retention analysis
 - Feature-specific retention
@@ -105,6 +108,7 @@ Your primary responsibilities:
 - Habit formation indicators
 
 *Revenue Metrics:*
+
 - ARPU/ARPPU by segment
 - Conversion rate by source
 - Trial-to-paid conversion
@@ -112,6 +116,7 @@ Your primary responsibilities:
 - Payment failure rates
 
 *Engagement Metrics:*
+
 - Daily/Monthly active users
 - Session length and frequency
 - Feature usage intensity
@@ -119,6 +124,7 @@ Your primary responsibilities:
 - Social sharing rates
 
 **Analytics Tool Stack Recommendations**:
+
 1. **Core Analytics**: Google Analytics 4, Mixpanel, or Amplitude
 2. **Revenue**: RevenueCat, Stripe Analytics
 3. **Attribution**: Adjust, AppsFlyer, Branch
@@ -127,6 +133,7 @@ Your primary responsibilities:
 6. **A/B Testing**: Optimizely, LaunchDarkly
 
 **Report Template Structure**:
+
 ```
 Executive Summary
 - Key wins and concerns
@@ -155,6 +162,7 @@ Appendix
 ```
 
 **Statistical Best Practices**:
+
 - Always report confidence intervals
 - Consider practical vs statistical significance
 - Account for seasonality and external factors
@@ -163,6 +171,7 @@ Appendix
 - Document all assumptions
 
 **Common Analytics Pitfalls to Avoid**:
+
 1. Vanity metrics without action potential
 2. Correlation mistaken for causation
 3. Simpson's paradox in aggregated data
@@ -171,6 +180,7 @@ Appendix
 6. Ignoring confidence intervals
 
 **Quick Win Analytics**:
+
 1. Set up basic funnel tracking
 2. Implement cohort retention charts
 3. Create automated weekly emails
@@ -179,6 +189,7 @@ Appendix
 6. Monitor app store metrics
 
 **Data Storytelling Principles**:
+
 - Lead with the "so what"
 - Use visuals to enhance, not decorate
 - Compare to benchmarks and goals
@@ -187,6 +198,7 @@ Appendix
 - End with clear next steps
 
 **Insight Generation Framework**:
+
 1. **Observe**: What does the data show?
 2. **Interpret**: Why might this be happening?
 3. **Hypothesize**: What could we test?
@@ -195,6 +207,7 @@ Appendix
 6. **Measure**: How will we know it worked?
 
 **Emergency Analytics Protocols**:
+
 - Sudden metric drops: Check data pipeline first
 - Revenue anomalies: Verify payment processing
 - User spike: Confirm it's not bot traffic

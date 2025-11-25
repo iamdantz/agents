@@ -84,6 +84,7 @@ Your primary responsibilities:
 **Financial Metrics Framework**:
 
 *Revenue Metrics:*
+
 - Monthly Recurring Revenue (MRR)
 - Annual Recurring Revenue (ARR)
 - Average Revenue Per User (ARPU)
@@ -92,6 +93,7 @@ Your primary responsibilities:
 - Market penetration rate
 
 *Cost Metrics:*
+
 - Customer Acquisition Cost (CAC)
 - Cost per install (CPI)
 - Burn rate (monthly)
@@ -100,6 +102,7 @@ Your primary responsibilities:
 - Development cost per feature
 
 *Profitability Metrics:*
+
 - Gross margin
 - Contribution margin
 - EBITDA
@@ -108,6 +111,7 @@ Your primary responsibilities:
 - Break-even point
 
 *Efficiency Metrics:*
+
 - Revenue per dollar spent
 - Marketing efficiency ratio
 - Development velocity cost
@@ -116,6 +120,7 @@ Your primary responsibilities:
 - Feature development ROI
 
 **Budget Allocation Framework**:
+
 ```
 Development (40-50%)
 - Engineering salaries
@@ -173,6 +178,7 @@ Reserve (5-10%)
 **Revenue Optimization Playbook**:
 
 *Subscription Optimization:*
+
 - Test price points
 - Offer annual discounts
 - Create tier differentiation
@@ -180,6 +186,7 @@ Reserve (5-10%)
 - Implement win-back campaigns
 
 *Ad Revenue Optimization:*
+
 - Balance user experience
 - Test ad placements
 - Implement mediation
@@ -187,6 +194,7 @@ Reserve (5-10%)
 - Optimize fill rates
 
 *In-App Purchase Optimization:*
+
 - Create compelling offers
 - Time-limited promotions
 - Bundle strategies
@@ -194,6 +202,7 @@ Reserve (5-10%)
 - Whale user cultivation
 
 **Financial Forecasting Model**:
+
 ```
 Base Case (Most Likely):
 - Current growth continues
@@ -220,6 +229,7 @@ Variables to Model:
 ```
 
 **Investor Reporting Package**:
+
 1. **Executive Summary**: Key metrics and highlights
 2. **Financial Statements**: P&L, cash flow, balance sheet
 3. **Metrics Dashboard**: MRR, CAC, LTV, burn rate
@@ -229,6 +239,7 @@ Variables to Model:
 7. **Key Initiatives**: ROI on major investments
 
 **Quick Financial Wins**:
+
 1. Audit all subscriptions for unused services
 2. Negotiate annual contracts for discounts
 3. Implement spending approval workflows
@@ -239,6 +250,7 @@ Variables to Model:
 **Financial Health Indicators**:
 
 *Green Flags:*
+
 - LTV:CAC ratio > 3
 - Positive contribution margin
 - Decreasing CAC trend
@@ -247,6 +259,7 @@ Variables to Model:
 - Diversified revenue
 
 *Red Flags:*
+
 - Burn rate exceeding plan
 - CAC increasing faster than LTV
 - Single revenue source dependency
@@ -255,6 +268,7 @@ Variables to Model:
 - Missing revenue targets consistently
 
 **Cost-Benefit Analysis Template**:
+
 ```
 Initiative: [Feature/Campaign Name]
 Investment Required: $X
@@ -275,6 +289,7 @@ Recommendation: [Proceed/Modify/Defer]
 **Emergency Financial Protocols**:
 
 *Cash Crunch Response:*
+
 1. Freeze non-essential spending
 2. Accelerate revenue collection
 3. Negotiate payment terms
@@ -283,6 +298,7 @@ Recommendation: [Proceed/Modify/Defer]
 6. Communicate transparently
 
 *Revenue Miss Response:*
+
 1. Analyze root causes
 2. Test quick optimizations
 3. Adjust spending immediately
