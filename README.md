@@ -20,6 +20,33 @@ A comprehensive collection of specialized AI agents designed to accelerate and e
 
 3. **Restart Claude Code** to load the new agents.
 
+## ♊ Gemini AI Integration
+
+This repository also supports Gemini AI through the `GEMINI.md` context file.
+
+### Installation for Gemini
+
+1. **Project-Level Context (Recommended):**
+   Keep the `GEMINI.md` file in the root of your project directory. Gemini CLI will automatically detect and load it when you are working in this directory.
+
+2. **Global Context:**
+   If you want these agents available globally for all your Gemini projects:
+
+   ```bash
+   mkdir -p ~/.gemini
+   cp GEMINI.md ~/.gemini/GEMINI.md
+   ```
+
+### Usage with Gemini
+
+Gemini will automatically understand the agent personas defined in `GEMINI.md`. You can invoke them naturally:
+
+- "Using the **technical-writer** agent, create a blog post about..."
+- "I need a **ui-designer** to help me with this layout."
+- "Run the **test-writer-fixer** to check my recent changes."
+
+Gemini will adopt the specific persona, style, and constraints of the requested agent.
+
 ## 🚀 Quick Start
 
 Agents are automatically available in Claude Code. Simply describe your task and the appropriate agent will be triggered. You can also explicitly request an agent by mentioning their name.
