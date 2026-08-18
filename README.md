@@ -1,13 +1,11 @@
 # Justified Intervention
 
-Coding agents are very good at making changes. They are less reliable at deciding
-how much change the situation actually warrants.
+Coding agents can make changes quickly, but they are less reliable at deciding
+how much change a situation warrants.
 
-Justified Intervention is a small set of working rules for that decision. It asks an
-agent to stay close to the user's intent, learn how the repository really works,
-respect the authority it has been given, and support its conclusions with evidence.
-
-The governing idea is simple:
+Justified Intervention is a set of working rules for that decision. It asks an agent
+to stay close to the user's intent, learn how the repository works, respect the
+authority it has been given, and support its conclusions with evidence.
 
 > **An intervention must never exceed the evidence that justifies it.**
 
@@ -19,12 +17,11 @@ refactor slips into a small request. A test passes, but it never exercised the
 behavior the user cared about. A tool is available, so the agent assumes it is allowed
 to use it.
 
-These are not mainly code-generation problems. They are failures of scope, evidence,
-and judgment.
+These mistakes come from failures of scope, evidence, and judgment.
 
-Justified Intervention gives an agent a practical way to avoid them without turning
-every task into a ceremony. It works across languages and repositories, and it does
-not prescribe an architecture, framework, or development methodology.
+Justified Intervention addresses them without turning every task into a ceremony. It
+works across languages and repositories, and it does not prescribe an architecture,
+framework, or development methodology.
 
 ## The idea in brief
 
@@ -35,17 +32,16 @@ The rules keep four things aligned:
 - **Authority:** what the agent is allowed to read, change, run, or affect.
 - **Evidence:** what has been observed and verified instead of merely inferred.
 
-In practice, that means investigating before committing to an explanation, fixing the
+That means investigating before committing to an explanation, fixing the
 cause rather than the visible symptom, preserving contracts and existing work, and
 stopping once the requested outcome has been demonstrated.
 
-The complete argument, including its principles and limits, is in
-[PHILOSOPHY.md](PHILOSOPHY.md).
+See [PHILOSOPHY.md](PHILOSOPHY.md) for the principles and limits.
 
 ## What is in `AGENTS.md`
 
-[AGENTS.md](AGENTS.md) turns the philosophy into instructions a coding agent can use
-while it works. It covers:
+[AGENTS.md](AGENTS.md) turns the philosophy into instructions for coding agents. It
+covers:
 
 - how to distinguish a review from permission to edit;
 - how to investigate, bound, implement, and verify a change;
@@ -54,7 +50,7 @@ while it works. It covers:
 - which local actions are routine and which effects need explicit approval;
 - how to report evidence, limitations, and unresolved decisions.
 
-The file is deliberately self-contained. It works on its own as global guidance or as
+The file is self-contained. It works on its own as global guidance or as
 a repository-level policy. Project-specific instructions can still refine it, and a
 larger workflow can build on it without becoming a dependency of the philosophy.
 
@@ -104,8 +100,8 @@ that the work is done?
 
 ## Background
 
-The philosophy grew out of recurring failure modes documented in research and
-practice on software agents: overfitted patches, weak traceability, invented packages,
-lost context, unsafe permission expansion, and prompt injection. The complete source
-list and the connection between those findings and the policy live in the
+The philosophy addresses common failures in software agents: overfitted patches,
+weak traceability, invented packages, lost context, unsafe permission expansion, and
+prompt injection. The complete source list and the connection between those findings
+and the policy live in the
 [foundation section of the philosophy](PHILOSOPHY.md#foundation).
